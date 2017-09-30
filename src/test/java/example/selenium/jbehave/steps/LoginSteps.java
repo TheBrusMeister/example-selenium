@@ -29,4 +29,5 @@ public class LoginSteps extends ScenarioSteps {
     public void assertNotLoggedIn() {
         homePage.assertThatJobseekerIsLoggedOut();
     }
+
 }
